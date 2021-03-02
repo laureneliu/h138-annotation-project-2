@@ -1,0 +1,165 @@
+---
+rooms:
+  1:
+    id: 1
+    name: "The Creep's room"
+    desc: "It's a very normal-looking room. With how cagey she is all the time about her personal life, you'd think she was hiding dead bodies or, like, anime body pillows in here. There's nothing interesting in here."
+    links:
+      S: 4
+  2:
+    id: 2
+    name: "West bathroom"
+    desc: "It's a bathroom. There's nothing interesting in here."
+    links:
+      E: 4
+  3:
+    id: 3
+    name: "The Nerd's room"
+    desc: "It's a very normal-looking room. He spends most of his time in the common areas, memorizing Wikipedia and spouting off random trivia, and he only uses this room to sleep. There's nothing interesting in here."
+    links:
+      N: 4
+  4:
+    id: 4
+    name: "End of west hallway"
+    links:
+      N: 1
+      W: 2
+      S: 3
+      E: 6
+  5:
+    id: 5
+    name: "Living room"
+    desc: "It's nominally the living room, but it's also used as an exercise room and a conference room. There's exercise equipment in the corner and the TV's set up for Zoom calls."
+    links:
+      S: 8
+      E: 9
+    objects:
+      "Dumbbells": "They're pretty nice, and the weights on each are easy to adjust. You're the only who uses them regularly. The Health Nut prefers some kind of meditation thing."
+      "Weight bench": "It's your weight bench. You're the only one who uses it regularly."
+      "Yoga mat": "It's the Health Nut's yoga mat. He usually brings it outside. Sometimes he asks you for some of your incense, too."
+      "TV": "It's currently connected to a fancy microphone, webcam, and laptop. It's mostly used for conference calls and gaming."
+      "Switch": "It's the Twins' Switch. They spend a lot of time playing Smash. The Stoner joins them sometimes."
+      "Wifi router": "It's the trusty wifi router. The Nerd put a lot of time and effort into making sure it's reliable. He can't stand being away from Wikipedia for more than a few minutes at a time."
+  6:
+    id: 6
+    name: "West hallway"
+    links:
+      W: 4
+      S: 7
+      E: 8
+  7:
+    id: 7
+    name: "Your room"
+    desc: "It's your room. You banned everyone from entering after The Incident."
+    links:
+      N: 6
+    objects:
+      "Computer": "It's your computer. You have some work to do today, but it can wait."
+      "Earbuds case": "Your precious earbuds. You don't know what you'd do without the ability to block out the chaos of your housemates. Die, probably."
+  8:
+    id: 8
+    name: "Entrance hall"
+    links:
+      N: 5
+      W: 6
+      E: 10
+    objects:
+      "Shoe rack": "It's a big shoe rack. Why does everyone own so many shoes?"
+  9:
+    id: 9
+    name: "Dining room"
+    links:
+      W: 5
+      S: 10
+    objects:
+      "iPad": "Someone left their iPad on the table. You wouldn't trust these fuckers with a rock, let alone an iPad. You wonder who left it out so carelessly."
+      "Microwave": "Why would anyone want to ruin their nice, cold leftovers by heating it up?"
+      "VR headset": "There's a VR headset charging next to the microwave. The Twins play Beat Saber on it pretty often. They always look super dumb when they do it."
+      "Water": "Six gallons of water, in case of earthquakes."
+      "Alcohol": "It's the alcohol cabinet. None of you really drink. You're never going to finish this."
+      "Bread": "It's the bread cabinet. There's a lot of bread. You fucked up the last Instacart order."
+  10:
+    id: 10
+    name: "Kitchen"
+    links:
+      N: 9
+      W: 8
+      E: 12
+    objects:
+      "Sink": "It's the kitchen sink. It's sparkling clean. The Health Nut must've done everyone's dishes again, and cleaned the sink while he was at it."
+      "Kitchen rules": "There's a set of rules about dish usage and how to clean the kitchen. You put up the dish usage rules, and the Creep put up the cleaning instructions."
+      "Fridge": "There's an awful lot of vegetables and leftovers in here. It's all vegan."
+      "Stove": "It's a temperamental gas stove."
+      "Dishwasher": "It's a good thing there's a dishwasher. Doing dishes for seven people every day would be pretty hard otherwise."
+      "Oreos": "There are three types of oreos. You buy oreos whenever your Instacart orders don't hit the $35 necessary to waive the delivery fee."
+      "Miracle berries": "Someone left out the miracle berry tablets. For an hour after you take one, sour things taste sweet. You never thought you'd enjoy drinking a cup of vinegar so much."
+      "Chocolate bars": "Your favorite food. You're basically the only one who eats these."
+  11:
+    id: 11
+    name: "East bathroom"
+    desc: "It's a bathroom. There's nothing interesting in here."
+    links:
+      S: 12
+  12:
+    id: 12
+    name: "The Stoner's room"
+    desc: "The Stoner's room. It's quite spacious and very... blue. They say it's a soothing color. You prefer red yourself. It's a bit more exciting."
+    links:
+      N: 11
+      W: 10
+      E: 15
+    objects:
+      "Fairy lights": "It's disgustingly aesthetic in here. She goes on all the time about how everything is empty, but it's surprisingly good about interior decoration."
+      "Desk": "It's the Stoner's desk. Hu spends most of xyr time sitting here doing AI safety research."
+      "A surprising lack of drugs": "For all that you call em the Stoner, you're pretty sure he's actually just like that, naturally."
+  13:
+    id: 13
+    name: "Laundry room"
+    desc: "There's a load of laundry in the washer and another on top of it."
+    links:
+      S: 14
+    objects:
+      "Washer": "You can't tell whose laundry is in there. There's twenty minutes left."
+      "Dirty laundry on washer": "It looks like it belongs to one of the Twins. You don't know which, since you're pretty sure they switch places every few days, despite not being identical. In any case, these belong to whichever one is presenting as female today."
+  14:
+    id: 14
+    name: "South hallway"
+    links:
+      N: 13
+      S: 15
+      E: 16
+  15:
+    id: 15
+    name: "The Twins' room"
+    desc: "It's the Twins' room. It's pretty big, so there's a coffee table you sometimes work at, an extra desk, and some bulk snacks that didn't fit in the kitchen."
+    links:
+      N: 14
+      W: 12
+    objects:
+      "Coffee table": "There's a lot of plants on it. They belong to the Health Nut."
+      "Snacks": "You're in charge of snacks. Someone has been sneaking Soylent from here, even though they're supposed to get it from the kitchen."
+      "Extra desk": "The Nerd works here sometime. He left a textbook next to the bulk snacks."
+      "Yin Twin's desk": "One of the Twins' desks is behind a black screen. There's nothing interesting on the desk."
+      "Yang Twin's desk": "One of the Twins' desks is behind a white screen. There's nothing interesting on the desk."
+  16:
+    id: 16
+    name: "The Health Nut's room"
+    desc: "It's the Health Nut's room. It's not actually a bedroom, but he turned it into one. It's very small. He said something about 'chasing away the excessive, abandoning the trivial.' Whatever."
+    links:
+      W: 14
+riddles:
+  - q: "Here, you may make a lodging place for the vital essence. It doesn't need to be exactly here, but it's a lot nicer when it is."
+    a: "Yoga mat"
+    room: 5
+  - q: "All the world knows beauty, but if that becomes beautiful, this becomes ugly. All the world knows good, but if that becomes good, this becomes bad. When life gives you lemons, I turn it into candy. What am I?"
+    a: "Miracle berries"
+    room: 10
+  - q: "To quietly recite and memorize the classics, to love learning without tiring of it, to never be bored with teaching: how could those be difficult for me? Well, it would be a hell of a lot harder without this thing."
+    a: "Wifi router"
+    room: 5
+  - q: "Form is no other than emptiness, emptiness no other than form. Form is emptiness, emptiness is form. And it is the same for sensation, perception, conception, and consciousness. All things are empty appearances. But this emptiness is a bit emptier than usual, and there's a hell of a lot of sensation, perception, and conception. Where is the gate to this emptiness?"
+    a: "VR headset"
+    room: 9
+  - q: "If the ruler of men practises the sole difficult policy of mind-reading, then anger and resentment will be accumulated. Look behind the kitchen rules."
+    a: "Kitchen rules"
+    room: 10
